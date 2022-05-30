@@ -5,9 +5,9 @@ import Countries from './components/Countries';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your  .</Text>
-      <StatusBar style="auto" />
+      <Text>Visiting Countries!</Text>
       <Countries></Countries>
+      <StatusBar style="auto" />
     </View>
   );
 }
@@ -15,7 +15,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'whitesmoke',
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
